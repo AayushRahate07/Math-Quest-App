@@ -35,6 +35,10 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   google_fonts: ^8.0.2
+  flutter_spinkit: ^5.2.2
+  supabase_flutter: ^2.12.2
+  flutter_svg: ^2.2.4
+  image_picker: ^1.2.1
 
 dev_dependencies:
   flutter_test:
@@ -46,6 +50,14 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/mathquestlogo.png"
+  adaptive_icon_background: "#000C2D" # Your Deep Navy color
+  adaptive_icon_foreground: "assets/mathquestlogo.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -67,6 +79,18 @@ flutter:
     - assets/7.png
     - assets/8.png
     - assets/BAZAARBILL.png
+    - assets/currency/
+    - assets/card.png
+    - assets/field_day.png
+    - assets/field_dusk.png
+    - assets/field_night.png
+    - assets/crop.png
+    - assets/clock_bg.png
+    - assets/drawer.png
+    - assets/BAAZAR BILL LOAD.png
+    - assets/FRACTION FIELD LOAD.png
+    - assets/FORMULA FLASH LOAD.png
+    - assets/mathquestlogo.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
